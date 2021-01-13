@@ -1,0 +1,7 @@
+env:
+  HOSTNAME_DATABASE: '{{ hostname }}'
+  NAME_DATABASE: '{{ database }}'
+  DRIVER_ODBC: '{{ driverodbc }}'
+  PASSWORD_DATABASE: '{{ password }}'
+  USERNAME_DATABASE: '{{ username }}'
+  SCRIPTSQL_FILE: '{{ scriptfile }}'

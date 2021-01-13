@@ -1,0 +1,25 @@
+fields:
+  - id: hostname
+    type: string
+    label: Имя хоста
+  - id: database
+    type: string
+    label: Наименование БД
+  - id: driverodbc
+    type: string
+    label: Драйвер ODBC
+  - id: username
+    type: string
+    label: Имя пользователя
+  - id: password
+    type: string
+    label: Пароль
+    secret: true
+  - id: scriptfile
+    type: string
+    label: Скрипт БД (опционально)
+required:
+  - hostname
+  - database
+  - username
+  - password
